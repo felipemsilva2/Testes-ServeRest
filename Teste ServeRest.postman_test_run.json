@@ -1,0 +1,428 @@
+{
+	"id": "84f6a231-9f83-4501-aa5e-65f857e3411f",
+	"name": "Teste ServeRest",
+	"timestamp": "2023-07-11T18:52:43.794Z",
+	"collection_id": "28382002-a3028a14-7067-49e0-b9ab-3300912f5bf2",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 20,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-07-11T18:52:07.370Z",
+	"totalFail": 40,
+	"results": [
+		{
+			"id": "7d983e2b-d8ce-48b9-84d2-c9b9ba5aaf33",
+			"name": "Editar produto",
+			"url": "http://localhost:3000/produtos/jGNXFPauzPqcW0UH",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "e4b08fc5-7926-4b7a-b31a-30d848441547",
+			"name": "Cadastrar produto",
+			"url": "http://localhost:3000/produtos",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Validar mensagem de sucesso": false,
+				"Status code is 201": false
+			},
+			"testPassFailCounts": {
+				"Validar mensagem de sucesso": {
+					"pass": 0,
+					"fail": 10
+				},
+				"Status code is 201": {
+					"pass": 0,
+					"fail": 10
+				}
+			},
+			"times": [
+				2,
+				2,
+				3,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				2
+			],
+			"allTests": [
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				},
+				{
+					"Validar mensagem de sucesso": false,
+					"Status code is 201": false
+				}
+			]
+		},
+		{
+			"id": "64e3c4ba-96bd-4d20-9190-2b69f75a0fb9",
+			"name": "Listar produtos id",
+			"url": "http://localhost:3000/produtos/",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validar produtos da lista": true,
+				"Status code é 200": true
+			},
+			"testPassFailCounts": {
+				"Validar produtos da lista": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code é 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				3,
+				3,
+				2,
+				3,
+				2,
+				3,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				},
+				{
+					"Validar produtos da lista": true,
+					"Status code é 200": true
+				}
+			]
+		},
+		{
+			"id": "060bcf86-22ac-402a-9e1c-0cabe822d69a",
+			"name": "Deletando produtos",
+			"url": "http://localhost:3000/produtos/APbACrEfXGiAIis0",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code é 200": false,
+				"Validar mensagem": false
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 0,
+					"fail": 10
+				},
+				"Validar mensagem": {
+					"pass": 0,
+					"fail": 10
+				}
+			},
+			"times": [
+				2,
+				2,
+				2,
+				3,
+				2,
+				2,
+				3,
+				3,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				},
+				{
+					"Status code é 200": false,
+					"Validar mensagem": false
+				}
+			]
+		},
+		{
+			"id": "76eb2c03-de04-4dcf-a748-95c8d2baa5e9",
+			"name": "Listar usuarios",
+			"url": "http://localhost:3000/usuarios/",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				2,
+				2,
+				2,
+				3,
+				7,
+				3,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "b22c7f30-c792-430a-af9c-1e2d6070c5f5",
+			"name": "Criar usuario",
+			"url": "http://localhost:3000/usuarios",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				3,
+				3,
+				2,
+				2,
+				3,
+				3,
+				2,
+				3,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "607e5e02-39ec-46d0-9687-27cdcc6fcc08",
+			"name": "Login",
+			"url": "http://localhost:3000/login",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				3,
+				4,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 182,
+	"collection": {
+		"requests": [
+			{
+				"id": "7d983e2b-d8ce-48b9-84d2-c9b9ba5aaf33",
+				"method": "PUT"
+			},
+			{
+				"id": "e4b08fc5-7926-4b7a-b31a-30d848441547",
+				"method": "POST"
+			},
+			{
+				"id": "64e3c4ba-96bd-4d20-9190-2b69f75a0fb9",
+				"method": "GET"
+			},
+			{
+				"id": "060bcf86-22ac-402a-9e1c-0cabe822d69a",
+				"method": "DELETE"
+			},
+			{
+				"id": "76eb2c03-de04-4dcf-a748-95c8d2baa5e9",
+				"method": "GET"
+			},
+			{
+				"id": "b22c7f30-c792-430a-af9c-1e2d6070c5f5",
+				"method": "POST"
+			},
+			{
+				"id": "607e5e02-39ec-46d0-9687-27cdcc6fcc08",
+				"method": "POST"
+			}
+		]
+	}
+}
